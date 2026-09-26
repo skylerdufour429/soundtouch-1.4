@@ -1,21 +1,34 @@
 # SoundTouch IPA Archive
 
-GitHub Pages + GitHub Codespaces compatible IPA archive viewer.
+A GitHub Pages + GitHub Codespaces-ready web archive viewer for IPA metadata.
 
-## Structure
+## Features
+
+- Static GitHub Pages deployment
+- Codespaces development support
+- IPA archive index viewer
+- Payload application metadata display
+- Searchable archive items
+
+## Archive Layout
+
+Example:
 
 SoundTouch 1.4.ipa
 └── Payload
-└── SoundTouch.app
-└── 929 items
+    └── SoundTouch.app
+        └── 929-item
 
 ## Development
 
 Open with GitHub Codespaces:
 
-1. Click **Code**
-2. Select **Create codespace on main**
-3. Run:
+1. Click Code
+2. Select Codespaces
+3. Create codespace
+
+Run:
 
 ```bash
-python3 -m http.server 8080
+npm install
+npm run dev
