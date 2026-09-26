@@ -1,0 +1,45 @@
+{
+  "archive": "SoundTouch 1.4.ipa",
+  "root": {
+    "name": "SoundTouch 1.4.ipa",
+    "type": "archive",
+    "path": "SoundTouch 1.4.ipa",
+    "size": "n/a",
+    "children": [
+      {
+        "name": "Payload",
+        "type": "directory",
+        "path": "SoundTouch 1.4.ipa/Payload",
+        "children": [
+          {
+            "name": "SoundTouch.app",
+            "type": "directory",
+            "path": "SoundTouch 1.4.ipa/Payload/SoundTouch.app",
+            "metadata": {
+              "bundleId": "com.soundtouch.app",
+              "bundleName": "SoundTouch",
+              "shortVersion": "1.4",
+              "version": "1.4",
+              "source": "example-ipa-archive"
+            },
+            "children": [
+              {
+                "name": "929-item",
+                "type": "file",
+                "path": "SoundTouch 1.4.ipa/Payload/SoundTouch.app/929-item",
+                "size": "929 bytes",
+                "hash": "sha256:8d2793b4e1a1cb24d5d65d8e686ef5157d3e0d8b6f27f1c862a4d34a4d88d4d5",
+                "metadata": {
+                  "kind": "bundle-entry",
+                  "mimeType": "application/octet-stream",
+                  "source": "example-ipa-archive",
+                  "note": "Nested application payload item from the sample archive layout."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
